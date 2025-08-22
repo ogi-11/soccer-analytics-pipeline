@@ -49,38 +49,4 @@ The project is structured as a sequential pipeline, with each notebook and scrip
 *   **Data Visualisation:** `matplotlib`, `seaborn`
 *   **Development Environment:** Jupyter Notebooks
 
----
 
-## How to Run This Project
-
-To reproduce this analysis, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/soccer-analytics-pipeline.git
-    cd soccer-analytics-pipeline
-    ```
-
-2.  **Install dependencies:**
-    It is recommended to create a virtual environment first. Then, install the required packages.
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: You will need to create a `requirements.txt` file by running `pip freeze > requirements.txt` in your terminal.)*
-
-3.  **Run the pipeline in order:**
-    *   Execute the scraper in `scripts/01_player_data_scraper.py` to gather the raw player data.
-    *   Run the notebooks in the `notebooks/` directory sequentially from `02` to `05`.
-    *   *Note: The scraping steps may take a significant amount of time to complete.*
-
----
-
-## Key Results & Findings
-
-*(This is where you would showcase your final result. You would replace the bracketed text with your actual findings from notebook 05)*
-
-The final predictive model achieved an out-of-sample **[Accuracy of XX.X%]** and an **[ROC AUC of 0.XX]**. The feature importance analysis revealed that **[Your Most Important Feature, e.g., 'recent_team_form']** was the most significant predictor of match outcomes.
-
-*(Optional: You can embed one of your key result images here, for example, the feature importance plot)*
-
-![Feature Importance Plot](path/to/your/feature_importance_plot.png)
